@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이미지 비교 슬라이더</title>
+
+  <!-- css 초기화-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">\
+  <!-- font-awesome 아이콘 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  <link rel="stylesheet" href="main.css">  
+
+  <!-- vanilla-tilt -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+  <script defer src="main.js"></script>
+</head>
+
+<body>
+
+  <div id="image-comparison-slider">
+    <img src="./images/01_lambert.png" alt="before">
+    <div class="img-wrapper">
+      <img src="./images/02_lambert-whitted.png" alt="after">
+    </div>
+
+    <div class="label label-before">Before</div>
+    <div class="label label-after">After</div>
+
+    <div class="handle">
+      <div class="handle-line"></div>
+      <div class="handle-circle">
+        <i class="fas fa-chevron-left"></i>
+        <i class="fas fa-chevron-right"></i>
+      </div>
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>
