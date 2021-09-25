@@ -10,7 +10,7 @@
 
 ## Font Awesome
 
-['Font Awesome'](https://fontawesome.com/) 에서 제공하는 머터리얼 아이콘을 무료로 사용할 수 있습니다.
+[`Font Awesome`](https://fontawesome.com/) 에서 제공하는 머터리얼 아이콘을 무료로 사용할 수 있습니다.
 
 ```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
