@@ -2,7 +2,7 @@ VanillaTilt.init(document.querySelector("#image-comparison-slider"), {
   max: 5,
   speed: 800,
   scale: 1.02
-});
+})
 
 const slider = document.querySelector('#image-comparison-slider')
 const sliderImgWrapper = document.querySelector('#image-comparison-slider .img-wrapper')
