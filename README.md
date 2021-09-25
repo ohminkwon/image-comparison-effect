@@ -10,7 +10,7 @@
 
 ## Font Awesome
 
-Font Awesome 에서 제공하는 머터리얼 아이콘을 무료로 사용할 수 있습니다.
+['Font Awesome'](https://fontawesome.com/) 에서 제공하는 머터리얼 아이콘을 무료로 사용할 수 있습니다.
 
 ```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
@@ -24,8 +24,9 @@ Font Awesome 에서 제공하는 머터리얼 아이콘을 무료로 사용할 �
 
 ## tilt.js
 
+[`vanilla-tilt.js`](https://micku7zu.github.io/vanilla-tilt.js/)에서 제공하는 기울기 애니메이션 효과 라이브러리 입니다. <br>
 마우스 위치에 따라 기울기 효과를 줍니다.<br>
-[`vanilla-tilt.js`](https://micku7zu.github.io/vanilla-tilt.js/)
+
 
 ```js
 VanillaTilt.init(document.querySelector("#image-comparison-slider"), {
@@ -35,7 +36,7 @@ VanillaTilt.init(document.querySelector("#image-comparison-slider"), {
 })
 ```
 
-이외에도 다양한 옵션을 통해 각도, 방향, 속도, 크기, 축, 광택등을 추가하여 표현할 수 있습니다.
+이외에도 아래와 같이 다양한 옵션을 통해 각도, 방향, 속도, 크기, 축, 광택등을 추가하여 표현할 수 있습니다.
 
 ```js
 {
@@ -65,7 +66,7 @@ VanillaTilt.init(document.querySelector("#image-comparison-slider"), {
 ```
 ## Responsive Web
 
-반응형 분기점을 설정하여 특정 해상도 변화에 따른 변화를 추가합니다.
+반응형 분기점을 설정하여 특정 해상도 변화에 따른 비율을 변경 합니다.
 
 ```css
 @media (max-width: 768px) {
